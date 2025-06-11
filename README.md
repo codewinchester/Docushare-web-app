@@ -1,4 +1,4 @@
-# To Run this web -app
+# How To Run this web app
 
 This contains everything you need to run your app locally.
 

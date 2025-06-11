@@ -8,7 +8,7 @@ import { NotificationToast } from './components/NotificationToast';
 import {  getFileTypeDisplay } from './utils/fileUtils';
 import { database } from './firebase';
 import { ref, set, onValue, off } from 'firebase/database';
-import Footer from './footer';
+import Footer from './Footer';
 
 const App: React.FC = () => {
   const [currentMode, setCurrentMode] = useState<AppMode>(AppMode.Student);
