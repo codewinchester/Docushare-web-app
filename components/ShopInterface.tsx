@@ -181,7 +181,7 @@ export const ShopInterface: React.FC<ShopInterfaceProps> = ({
   
   const avgWaitTimeDisplay = stats.avgWaitTimeCalculatedForItems > 0 
     ? `${(stats.avgWaitTimeMinutes / 60).toFixed(1)}h`
-    : 'N/A';
+    : '0';
 
   if (!shopId) {
     return (
@@ -287,7 +287,7 @@ export const ShopInterface: React.FC<ShopInterfaceProps> = ({
             label="Avg Wait Time" 
             value={avgWaitTimeDisplay}
             bgColor="bg-gradient-to-r from-white-500 to-orange-600"
-            textColor="text-white"
+            textColor="text-bg-brand-primary"
           />
         </div>
 
