@@ -3,7 +3,7 @@ import { getDatabase } from 'firebase/database';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAFdyyaVX9BLcxawI5edbNADJ_LZsjmXzM",
+  apiKey: "",
   authDomain: "docushare-web-app-31170.firebaseapp.com",
   databaseURL: "https://docushare-web-app-31170-default-rtdb.europe-west1.firebasedatabase.app",
   projectId: "docushare-web-app-31170",
